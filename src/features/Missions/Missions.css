@@ -1,0 +1,60 @@
+.missions {
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  width: 90%;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+tr:nth-child(odd) {
+  background-color: #f1f2f2;
+}
+
+th {
+  background-color: white !important;
+  text-align: center;
+  padding: 20px;
+  border-left: 1px solid black;
+}
+
+td {
+  text-align: center;
+  padding: 20px;
+  border-left: 1px solid black;
+}
+
+.mstatus {
+  width: max-content;
+}
+
+td button {
+  width: max-content;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.mstat {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  width: max-content;
+  color: white;
+  font-weight: bolder;
+}
+
+.member {
+  background-color: rgb(15, 112, 157);
+}
+
+.notmember {
+  background-color: rgb(70, 72, 72);
+}
+
+.leavebtn {
+  border: 2px solid red;
+}
