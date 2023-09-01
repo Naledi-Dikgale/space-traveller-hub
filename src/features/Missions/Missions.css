@@ -18,13 +18,13 @@ tr:nth-child(odd) {
 th {
   background-color: white !important;
   text-align: center;
-  padding: 20px;
+  padding: 18px;
   border-left: 1px solid black;
 }
 
 td {
   text-align: center;
-  padding: 20px;
+  padding: 18px;
   border-left: 1px solid black;
 }
 
