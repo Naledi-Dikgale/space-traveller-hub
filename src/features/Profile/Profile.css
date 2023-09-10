@@ -1,0 +1,33 @@
+.profile {
+  display: flex;
+  justify-content: space-around;
+}
+
+.listtitle {
+  margin-bottom: 8px;
+  padding: 0;
+  font-size: xx-large;
+}
+
+.listbox {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  width: 45%;
+  height: auto;
+}
+
+.itemlist {
+  all: unset;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.listitems {
+  border: 1px solid black;
+  list-style: none;
+  font-size: larger;
+  height: auto;
+  padding: 20px;
+}

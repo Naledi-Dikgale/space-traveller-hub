@@ -1,0 +1,76 @@
+.rockets {
+  display: flex;
+  flex-direction: column;
+}
+
+.rocketimg {
+  height: 150px;
+  aspect-ratio: 4 / 3;
+}
+
+.rocketTile {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 8px;
+}
+
+.reserved {
+  margin-right: 10px;
+  font-size: medium;
+  background-color: rgb(51, 87, 219);
+  color: white;
+  width: fit-content;
+  width: -moz-fit-content;
+  padding: 6px;
+  border-radius: 8px;
+  font-weight: bolder;
+}
+
+.notReserved {
+  display: none;
+}
+
+.rocketDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+
+.rocketName {
+  font-size: larger !important;
+  margin: 0;
+}
+
+.rocketDescription {
+  max-width: 800px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 28px;
+}
+
+.reserveButton {
+  all: unset;
+  padding: 8px;
+  text-align: center;
+  border-radius: 8px;
+  color: white;
+  width: fit-content;
+  width: -moz-fit-content;
+}
+
+.reserveButton:hover {
+  cursor: pointer;
+}
+
+.cancel {
+  cursor: pointer;
+  background-color: rgb(220, 224, 227);
+  color: black;
+}
+
+.reserve {
+  background-color: rgb(16, 77, 168);
+}
